@@ -7,7 +7,7 @@
 FROM    ubuntu:13.10
 MAINTAINER Mike Hadlow <mike@suteki.co.uk>
 
-RUN     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -q software-properties-common
-RUN     sudo add-apt-repository ppa:directhex/monoxide -y
-RUN     sudo apt-get update
-RUN     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -q mono-devel
+RUN     DEBIAN_FRONTEND=noninteractive apt-get install -y -q software-properties-common
+RUN     add-apt-repository ppa:directhex/monoxide -y
+RUN     apt-get update
+RUN     DEBIAN_FRONTEND=noninteractive apt-get install -y -q mono-devel
