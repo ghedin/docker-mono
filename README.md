@@ -1,8 +1,6 @@
 docker-mono
 ===========
 
-An Ubuntu based docker image with mono
+A very basic Docker image with Ubuntu and Mono.
 
-Based on this blog post: 
-
-http://mikehadlow.blogspot.com.br/2014/04/a-docker-hello-world-with-mono.html
+Based on http://mikehadlow.blogspot.com.br/2014/04/a-docker-hello-world-with-mono.html
